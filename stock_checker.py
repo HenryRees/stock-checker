@@ -18,7 +18,7 @@ sender_password = os.environ["SENDER_PASSWORD"]
 user_agent = os.environ['USER_AGENT']
 
 # Specify the path to the ChromeDriver executable
-chrome_driver_path = "/Users/henryrees/OneDrive/Documents/StockCheckerProject/chromedriver-mac-arm64"
+chrome_driver_path = os.environ['CHROME_DRIVER_PATH']
 
 def check_stock(website_url: str, article_size: str) -> bool:
 
