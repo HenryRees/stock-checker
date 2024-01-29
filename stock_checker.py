@@ -161,7 +161,7 @@ if __name__ == "__main__":
         "website_url", type=str, help="Please enter the url of the item you want to check stock for"
     )
     parser.add_argument(
-        "article_size", type=str, default="Medium", help="What size of item are you looking for"
+        "article_size", type=str, default="M", help="What size of item are you looking for"
     )
     
     args = parser.parse_args()
